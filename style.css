@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+@media only screen and (max-width: 400px){
+    body{
+        width: auto;
+    }
+}
+
+.navbar{
+    height: 60px;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.slogan{
+    font-family: Dancing Script, sans-serif;
+    color: rgb(214,2,112);
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.nav-item{
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.nav-item:hover{
+    text-decoration: underline;
+    color: #f4c9c9;
+}
+
+.carousel-inner{
+    height: 700px;
+}
+
+.main-container{
+    margin-top: 5px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cart1, .cart2, .cart3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    border: rgb(214,2,112) solid 2px;
+    border-radius: 5px;
+    height: 50px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.cart1:hover{
+    box-shadow: 3px 3px 7px  rgb(214,2,112);
+    font-size: 20px;
+    background-color: #f4c9c9;
+}
+.cart2:hover{
+        box-shadow: 3px 3px 7px  rgb(214,2,112);
+        font-size: 20px;
+        background-color: #f4c9c9;
+}
+.cart3:hover{
+    box-shadow: 3px 3px 7px  rgb(214,2,112);
+    font-size: 20px;
+    background-color: #f4c9c9;
+}
+
+.fa-truck, .fa-headphones, .fa-thumbs-up{
+    font-size: 25px !important;
+    margin-right: 10px;
+    text-align: center;
+}
+.fa-thumbs-up:hover{
+    color: rgb(214,2,112);
+}
+.fa-headphones:hover{
+    color: rgb(214,2,112);
+}
+.fa-truck:hover{
+    color: rgb(214,2,112);
+}
+
+@media screen and (max-width: 600px){
+    .cart1, .cart2, .cart3{
+        width: 100%;
+    }
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 20px;
+}
+
+.card{
+    width: 230px;
+    height: 250px;
+    align-items: center;
+    margin-right: 50px; 
+    border-radius: 5px;
+    margin-bottom: 250px;
+    cursor: grab;
+}
+
+.card-body:hover{
+    background-color: #f4c9c9;
+    font-weight: bold;
+}
+.card-title{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+.card-title:hover{
+    color: rgb(214,2,112);
+    text-decoration: underline;
+}
+.card-img-top{
+    width: 150px;
+    height: 200px;
+}
+
+.card-body:hover{
+    border: rgb(214,2,112) solid 2px;
+    text-align: center;
+}
+
+
+footer{
+    position: relative;
+    padding-top: 5px;
+    bottom: 0px;
+    width: 100%;
+    background: rgb(214,2,112);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main-content{
+    display: flex;
+}
+
+.main-content .leftbox h2{
+    color: white;
+    flex-basis: 50%;
+    padding: 10px 10px
+}
+.main-content .leftbox .content{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #f4c9c9;
+    flex-basis: 50%;
+    padding-left: 10px
+}
+
+.left .content .social a span{
+    height: 40px;
+    width: 40px;
+    background: #1a1a1a;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.main-content .social a span{
+    margin-left: 5px;
+    padding: 3px;
+    font-size: 20px;
+}
+.main-content .social a span:hover{
+    color: #f4c9c9;
+}
+
+.centerbox h2{
+    color: white;
+    flex-basis: 50%;
+    font-weight: 300px;
+    margin: 10px 50px 0px 10px
+}
+
+.centerbox .content{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #f4c9c9;
+    flex-basis: 70%;
+    line-height: 25px;
+    margin: 10px 50px 0px 10px ;
+}
+
+
+.rightbox h2{
+    color: #f4c9c9;
+    flex-basis: 50%;
+    font-weight: 300px;
+    margin: 5px 0px 0px 20px;
+}
+
+.rightbox .content{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    flex-basis: 50%;
+    line-height: 25px;
+    margin-left: 20px;
+}
